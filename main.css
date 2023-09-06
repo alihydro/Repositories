@@ -1,0 +1,65 @@
+* { 
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.containair {
+    width: 800px;
+    background-color: #f8f8f8;
+    margin: auto;
+}
+.get {
+    padding: 20px;
+    display: flex;
+    background-color: #eee;
+
+}
+.get input {
+width: 100%;
+padding: 15px 20px;
+border: none;
+font-size: 20px;
+height: 54px;
+}
+.get input:focus {
+outline: 2px solid #F44336;
+}
+.get .get-button {
+    width: 140px;
+    margin-left: 15px;
+    background-color: #F44336;
+    color: white;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.show-data {
+    padding:20px 15px ;
+    background-color: #E0E0E0;
+}
+.repo-box {
+    background-color: white;
+    padding: 20px;
+  
+    width: 400px;
+    margin: 2px auto ;
+}
+.repo-box a ,
+.repo-box span{
+   float: right;
+   margin-right: 4px;
+   border-radius:2px;
+   background-color: #F44336;
+   padding: 4px;
+   color: white;
+   text-decoration: none;
+}
+.repo-box span {
+    background-color: rgba(255, 230, 0, 0.788);
+    color: black;
+    padding: 5px 8px;
+}
